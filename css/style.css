@@ -60,6 +60,7 @@ header i {
 }
 
 main {
+    padding-top: 60px;
     background-color: #141922;
     flex-grow: 1;
 }

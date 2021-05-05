@@ -1,8 +1,8 @@
 <?php
- include __DIR__ . '/database.php';
- 
- header('Content-Type: application/json');
+    include __DIR__ . '/database.php';
+    
+    header('Content-Type: application/json');
 
- echo json_encode($albums);
+    echo json_encode($albums);
 
 ?>

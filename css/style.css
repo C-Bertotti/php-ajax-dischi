@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+}
+
+body > .wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    height: 60px;
+    background-color: black;
+}
+
+header .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header i {
+    font-size: 30px;
+}
+
+main {
+    background-color: #141922;
+    flex-grow: 1;
+}
+
+main .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.album {
+    width: calc(100% / 3);
+    height: 100px;
+    background-color: red;
+}
+

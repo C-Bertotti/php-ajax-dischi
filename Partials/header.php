@@ -1,5 +1,5 @@
 <body>
-    <div class="wrapper">
+    <div id="root">
         <header>
             <div class="container">
                 <i class="fab fa-spotify"></i>

@@ -33,7 +33,7 @@ p.year {
 }
 
 
-body > .wrapper {
+#root {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -62,7 +62,8 @@ header i {
 main {
     padding-top: 60px;
     background-color: #141922;
-    flex-grow: 1;
+    height: calc(100% - 60px);
+    overflow: auto;
 }
 
 main .container {
@@ -78,7 +79,6 @@ main .container {
     padding: 15px;
 }
 .album__img {
-    height: 100px;
     width: 100%;
     background-color: blue;
 }
